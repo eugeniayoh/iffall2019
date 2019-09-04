@@ -1,0 +1,29 @@
+body {
+
+	font-family: cochin;
+	font-size: 14pt;
+	color: blue;
+}
+
+.DrPeterVenkman{
+
+	color: red;
+	background-color: pink;
+}
+
+.DanaBarrett{
+
+	color: yellow;
+	background-color: #4886E4;
+}
+
+.Mayor{
+
+color: #226FE2;
+background-color: #EFFA56;
+}
+
+.DrRayStantz {
+	color: #3165E1;
+	background-color: #93E4F0;
+}
