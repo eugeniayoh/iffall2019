@@ -1,0 +1,46 @@
+body {
+
+font-size: 15pt; 
+font-family: cochin; 
+color: #778381; 
+line-height: 2
+}
+
+.boxes {
+
+	font-family: courier;
+
+
+}
+
+
+h1 {
+	color: gray; 
+	font: cochin; 
+	font-size: 45pt; 
+	kerning: normal
+}
+
+h2 {
+	color: #0A3923;
+	 font-size: 14pt; 
+	 font-family: cochin
+}
+
+a:link { 
+color: black;
+background color: transparent;
+text-decoration: none;
+font-size: 11pt;
+font-family: cochin;
+text-decoration: underline;
+ }
+
+
+
+.green {
+
+	font-color: green;
+
+}
+
