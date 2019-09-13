@@ -1,0 +1,40 @@
+body { 
+	font-family: 'Crimson Text', serif;
+	font-size: 2em;
+	line-height: 2;
+ }
+
+ h1 {
+ 	font-size: 3em;
+ 	color: #E9311D;
+ 	 }
+
+ h2 {
+ 	font-size: 18pt;
+ 	color: rgba(160, 189, 176, 0.8);
+ 	font-family: helvetica;
+ }
+
+ h3 {  
+	font-size: 12pt;
+ 	color: rgba(160, 189, 176, 0.8);
+ 	font-family: helvetica;
+ }
+
+ h4 {
+ 	font-family: 'Crimson Text'  serif;
+ 	font-weight: 400
+ 	/* For some reason I type in 400 and everything else in h4 is still bold*/
+ 	color: black;
+ 	line-height: 0.5;
+ 	font-size: 14pt;
+ }
+
+
+ }
+
+/* This is supposed to give you margins but it doesn't 
+p {
+	margin: 20px 20px 20px 20px;
+}*/
+
