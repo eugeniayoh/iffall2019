@@ -1,0 +1,86 @@
+
+body{
+
+
+	font-family: 'Cute Font', cursive;
+	font-size: 20pt;
+
+
+}
+
+h1{
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 90pt;
+	letter-spacing: -15px;
+}
+
+.blue:hover {
+	background-color: #DAFBFD
+
+
+}
+
+.pink:hover {
+	background-color: #F6D4C1
+}
+
+.yellow:hover{
+	background-color: #F2F26D
+}
+
+.green:hover{
+	background-color: #D3EFC0;
+
+}
+
+.L:hover{
+	color: #F2DC1C;
+
+}
+
+.i:hover{
+	color: #CBF0E3;
+}
+
+.t:hover{
+	color: #ECB97E;
+}
+
+.t2:hover{
+	color: #2475EF;
+}
+
+.l:hover{
+	color: #D5F7C6;
+}
+
+.e:hover{
+	color: #F29747;
+}
+
+.B:hover{ 
+	color: #51C7F2;
+ }
+
+.o:hover{ 
+	color: #F9EA16;
+ }
+
+ .x:hover{
+ 	color: #2895BD;
+ }
+
+ .s:hover{
+ 	color:#89E4AD;
+ }
+
+.boxes:hover{
+	text-decoration: underline;
+}
+
+/*.box1:hover{
+	img src= "box 2 copy.jpg"  alt= "box" style="width:90px; height:90px;
+This does not change the image when you hover over it :(  experiment is unsucessful);
+}
+*/
