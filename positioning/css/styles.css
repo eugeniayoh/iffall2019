@@ -1,0 +1,40 @@
+
+.first {
+	float: right;
+	position: relative;
+}
+
+.second {
+	position: relative;
+	top: 13em;
+	left: 27em;
+}
+
+.third {
+	position: fixed;
+	top: 0;
+	right:0;
+	background-color: green;
+	z-index: 10;
+}
+
+.four {
+	background-color: red;
+	z-index: 7;
+	position: absolute;
+	top: 93.9em;
+	margin:auto;
+	left: 20em;
+
+}
+
+.five {
+	background-color: black;
+	z-index: 2;
+	position: absolute;
+	margin: auto;
+	left: 20.4em;
+
+
+
+}
