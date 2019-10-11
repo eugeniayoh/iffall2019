@@ -1,0 +1,528 @@
+	body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+			a#btn_molly {
+				display: inline-block;
+				margin-top: 100px;
+				height:80px;
+				width:210px;
+				box-sizing: border-box;
+				background-color: #d7ca9e;
+				/*background-color: #3e441d;
+				color: white;*/
+				border: 3px solid #3e441d;
+				border-radius:5px;
+				overflow:hidden;
+
+
+			}
+
+			a#btn_molly:hover{
+				background-color: white;
+				transform: scale(0.9) translateY(2px);
+				box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+				transition: transform 0.3s;
+				/*border: dashed;*/
+			}
+
+			a#btn_molly img {
+				width:380px;
+				padding-top:10px;
+				padding-left:7px;
+
+			}
+
+			a#btn_newyorker {
+				display: inline-block;
+				height: 60px;
+				width: 150px;
+				background-color: white;
+				border: solid black 1px;
+				margin-top: 95px;
+
+
+			}
+
+			a#btn_newyorker svg{
+				padding-top: 15px;
+				height:30px;
+				width:auto;
+				color:white;
+			}
+
+			a#btn_newyorker:hover{
+				background-color: #db3334;
+				transition:transform 1.3s;
+				transform:scale(1.2) rotate(360deg);
+				box-shadow: 3px 3px 3px rgba(0,0,2,0.2);
+
+
+			}
+
+			a#btn_sardella {
+				margin-top: 100px;
+				padding-top:15px;
+				text-align: center;
+				display:inline-block;
+				height: 60px;
+				width:150px;
+				font-family: caslon;
+				box-sizing:border-box;
+				background-color: cyan;
+				border: solid blue;
+				text-decoration: none;
+				letter-spacing: 7px;
+				font-size:12pt;
+				color:blue;
+
+			}
+
+			a#btn_sardella:hover{
+				background-color: white;
+				transform:scale(0.9);
+				background-image: url("https://sardellastl.com/wp-content/themes/Sardella/assets/images/paint-drips.png" alt="Sardella");
+				background-image-size: height:400px width:auto;
+				text-decoration: underline;
+				color:blue;
+			}
+
+			#sardines {
+				height:70px;
+			}
+
+			#sardines:hover {
+				height:100px;
+			}
+
+
+			a#btn_moo svg{
+				height:50px;
+				margin-top:100px;
+				padding:15px;
+				display:inline-block;
+				background-color:#107c5d;
+				border-radius: 25px;
+
+			}
+
+			a#btn_moo svg:hover{
+				transition: transform:4s;
+				/*border:dotted white;*/
+				border-width: 2px;
+				transform:scale(0.8);
+				/*transform:scale3d(2);*/
+				/*transform: rotate(20deg);*/
+				box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+
+			}
+
+			a#btn_nerf img{
+				margin-top:100px;
+				height:70px;
+			/*	width:auto;
+			transition: transform:70s;*/
+			}
+
+			a#btn_nerf img:hover{
+				transform:scale(0.8) rotateX(150deg) rotateY(20deg) rotateZ(270deg) rotate3d(1,1,1,30deg);
+				
+			}
+
+			a#btn_dime img {
+				height:50px;
+			}
+
+
+			/*a#btn_cn img {
+				font-size:50pt;
+				font-family: 'Montserrat', sans-serif;
+				margin:100px;
+				text-decoration:none;
+			}
+*/
+			
+			#btn_cn .c{
+				font-size:40pt;
+				font-family: 'Montserrat 900', sans-serif;
+				font-weight:900;
+				margin-top:100px;
+				text-decoration:none;
+				background-color: black;
+				height:auto;
+				width:60px;
+				text-decoration: none;
+				display:inline-block;
+				color: white;
+				text-decoration: none;
+				padding-right:0;
+			}
+
+			#btn_cn .n{
+				width:60px;
+				height:auto;
+				margin-left:-3px;
+				padding:10px;
+				padding-top:0px;
+				padding-bottom:0px;
+				font-size:40pt;
+				font-family:'Montserrat 900', sans-serif;
+				font-weight:900;
+				margin-top:100px;
+				text-decoration:none;
+				display:inline;
+				width:50px;
+				background-color:black;
+				color:white;
+				margin:0px;
+
+			}
+
+			#btn_cn .c:hover {
+				background-color: white;
+				color:black;
+			}
+
+			#btn_cn .n:hover {
+				background-color: white;
+				color:black;
+				text-decoration: none;
+			}
+
+
+			#btn_color{
+				font-family: 'PT Sans Narrow', sans-serif;
+				color:white;
+				padding:10px;
+				font-size: 23pt;
+				letter-spacing: 1px;
+				background-color:black;
+				text-decoration:none;
+				margin-top:100px;
+				display:inline-block;
+			}
+
+			.the {
+				color:#007bff;
+			}
+
+			.color {
+				color:#b149bf;
+			}
+
+			.run {
+				color:#ffc107;
+			}
+
+			.the:hover {
+				color:#e83e8c;
+			}
+
+			.color:hover {
+				color:#20c997;
+			}
+
+			.run:hover{
+				color:#e83e8c;
+
+			}
+
+			#btn_color:hover{
+				background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9a1e9a+0,83e4ef+100&1+0,1+65,0.7+77,0.72+100 */
+background: -moz-linear-gradient(-45deg,  rgba(154,30,154,1) 0%, rgba(139,159,209,1) 65%, rgba(136,183,219,0.7) 77%, rgba(131,228,239,0.72) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(154,30,154,1) 0%,rgba(139,159,209,1) 65%,rgba(136,183,219,0.7) 77%,rgba(131,228,239,0.72) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(154,30,154,1) 0%,rgba(139,159,209,1) 65%,rgba(136,183,219,0.7) 77%,rgba(131,228,239,0.72) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	}
+
+			#btn_dime #dime{
+
+				height:120px;
+				margin-top:60px;
+				display:inline-block;
+			}
+
+			#btn_dime #dime:hover{
+
+				transform:scale(0.7);
+				transform:rotate(180deg);
+				/*box-shadow: 1px 1px 1px rgba(0,0,0,0.6);*/
+			}
+
+			.n {
+				background-color:#D0021B;
+				padding:10px;
+				padding-left:20px;
+				padding-right:20px;
+				font-family: 'Noto Sans KR', sans-serif;
+				text-decoration: none;
+				color:white;
+				font-size:30pt;
+				display:inline-block;
+				margin-top:100px;
+			}
+
+			.p {
+				background-color:black;
+				padding:10px;
+				padding-left:20px;
+				padding-right:20px;
+				font-family: 'Noto Sans KR', sans-serif;
+				text-decoration: none;
+				color:white;
+				font-size:30pt;
+				display:inline-block;
+
+			}
+
+			.r {
+				background-color:#6d8ac4;
+				padding:10px;
+				padding-left:20px;
+				padding-right:20px;
+				font-family: 'Noto Sans KR', sans-serif;
+				text-decoration: none;
+				color:white;
+				font-size:30pt;
+				display:inline-block;
+				margin:none;
+				margin-left:-5px;
+
+			}
+
+			.n:hover{
+				transform:scale(0.9);
+
+			}
+
+			.p:hover{
+				transform:scale(0.9);
+			}
+
+			.r:hover{
+			text-decoration: none;
+			transform:scale(0.9);
+			}
+
+			#btn_allen{
+			display:inline-block;
+			margin-top:100px;
+			font-family: 'Noto Sans KR', sans-serif;
+			font-size:25pt;
+			color:black;
+			text-decoration:none;
+			font-family: 'Playfair Display', serif;
+			}
+
+			#btn_allen:hover{
+				box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+				padding:10px;
+				background-color:#004428;
+				color:white;
+			}
+
+			#btn_chocolate img{
+				margin-top:100px;
+				height:80px;
+				display:inline-block;
+			}
+
+
+			#btn_chocolate img:hover {
+				transform:rotate(30deg);
+				scale:(0.9);
+			}
+
+			#btn_lyft img{
+				height:50px;
+				margin-top:100px;
+				display:inline-block;
+				border:solid #ea0b8c;
+				padding:30px;
+				padding-top:10px;
+				padding-bottom:10px;
+				border-radius:40px;
+
+
+			}
+
+			#btn_lyft img:hover{
+				background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f931c7+0,fff9f9+100&1+0,0+100 */
+background: -moz-linear-gradient(-45deg,  rgba(249,49,199,1) 0%, rgba(255,249,249,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(249,49,199,1) 0%,rgba(255,249,249,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(249,49,199,1) 0%,rgba(255,249,249,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				transform:scale(0.8);
+				border:none;
+
+
+			}
+
+			#btn_bike {
+				margin-top:80px;
+				height:20px;
+				padding-top:40px;
+				background-color:#00a8cb;
+			}
+
+			#btn_bike img{
+				margin-top:90px;
+				padding-top:30px;
+			}
+
+			#btn_bike:hover{
+				border-top-left-radius: 30px;
+				border-bottom-right-radius:30px;
+			}
+
+			#btn_kitten img{
+
+				margin-top:100px;
+				width:200px;
+
+			}
+
+			#btn_kitten img:hover{
+				background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b71c01+0,fe6f68+100&1+0,1+7,0.7+47,0+93 */
+background: -moz-linear-gradient(-45deg,  rgba(183,28,1,1) 0%, rgba(188,34,8,1) 7%, rgba(216,67,49,0.7) 47%, rgba(249,105,97,0) 93%, rgba(254,111,104,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(183,28,1,1) 0%,rgba(188,34,8,1) 7%,rgba(216,67,49,0.7) 47%,rgba(249,105,97,0) 93%,rgba(254,111,104,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(183,28,1,1) 0%,rgba(188,34,8,1) 7%,rgba(216,67,49,0.7) 47%,rgba(249,105,97,0) 93%,rgba(254,111,104,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				padding:20px;
+				transform:scale(1.3);
+				transition:3s;
+			}
+
+			#btn_hsn{
+
+				margin-top:80px;
+				display:inline-block;
+				background-color:#0077c8;
+				padding:30px;
+				border-radius:50%;
+				text-decoration: none;
+				font-family: 'Kanit', sans-serif;
+				color:white;
+				font-size:30pt;
+
+			}
+
+			#btn_hsn:hover{
+				transform:scale(0.8);
+				background-color:red;
+			}
+		/*	a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+
+		/*	a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}*/
+
+			/*a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}*/
