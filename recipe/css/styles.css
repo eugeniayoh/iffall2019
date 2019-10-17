@@ -1,0 +1,183 @@
+
+
+.header{
+	background-color: #F74447;
+	color:white;
+	text-align:left;
+	width: auto;
+	font-family: 'Niramit', sans-serif;
+	padding:8px;
+	letter-spacing: 1px;
+
+}
+
+
+body {
+	margin: auto;
+	width: 400px;
+}
+
+h1 {
+
+	font-family: 'Rasa', serif;
+	color: #F74447;
+	font-size: 36pt;
+	text-align: center;
+	margin-top:50px;
+}
+
+.main {
+	padding:10px;
+}
+.image1 {
+	width:350px;
+}
+
+.Prep {
+		font-family: 'Niramit', sans-serif;
+		size:12pt;
+		padding:2px;
+}
+
+.made_by {
+	color:#F3AAAB;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-family: 'Rasa', serif;
+	font-size: 11pt;
+}
+
+.caption {
+	font-family: 'Niramit', sans-serif;
+	font-size:12pt;
+	padding-bottom:15px;
+}
+
+.ingredients {
+	border: 0.5px solid black;
+}
+
+h2:hover {
+	background-color: #F3AAAB;
+
+}
+
+
+h2 {
+	font-family: 'Rasa', serif;
+	color: white;
+	background-color: black;
+	font-weight:400;
+	padding:5px;
+	width:8em;
+	letter-spacing:0.5px;
+	text-align:center;
+	border-radius: 15px;
+	margin: 0 auto;
+	font-size:16pt;
+	margin-top:15px;
+
+}
+
+.circle {
+	background-color: black;
+	margin:10px;
+	height:35px;
+	width:35px;
+	border-radius: 50%;
+	font-family: 'Rasa', serif;
+	text-align:center;
+	color:white;
+	line-height:35px;
+	font-size:14pt;
+	display:inline-block;
+
+}
+
+.circle:hover {
+	background-color: #F3AAAB;
+	color:black;
+}
+
+.ing {
+	display:inline-block;
+	font-family: 'Niramit', sans-serif;
+}
+
+h3 {
+	font-family: 'Rasa', serif;
+	color: white;
+	background-color: #F74447;
+	font-weight:400;
+	padding:5px;
+	width:8em;
+	letter-spacing:0.5px;
+	text-align:center;
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-top:15px;
+	font-size:16pt;
+
+}
+
+h3:hover {
+	color: white;
+	background-color: black;
+}
+
+.image2 {
+	width:250px;
+	margin: 0 auto;
+	display:block;
+
+}
+
+h4 {
+	text-align:center;
+	font-family: 'Rasa', serif;
+	color: #F74447;
+	font-size:20pt;
+	padding:none;
+	margin:none;
+	text-decoration:underline;
+	text-decoration-color:pink;
+}
+
+.ing2 {
+	display:block;
+	font-family: 'Niramit', sans-serif;
+	float:left;
+/*	margin:0 auto;*/
+
+}
+
+
+h5 {
+	text-align:center;
+	font-family: 'Rasa', serif;
+	color: #F74447;
+	font-size:20pt;
+	margin-top:8em;
+	margin:none;
+	text-decoration:underline;
+
+}
+
+h6 {
+	font-family: 'Rasa', serif;
+	color: #F74447;
+	font-size: 36pt;
+	text-align: center;
+	margin-top:50px;
+
+}
+
+.img3 {
+	padding-top:50px;
+	width:200px;
+	height:auto;
+	margin:0 auto;
+	display:block;
+
+}
+
