@@ -55,6 +55,8 @@ h1 {
 
 .ingredients {
 	border: 0.5px solid black;
+	padding-left: 10px;
+	padding-bottom: 10px;
 }
 
 h2:hover {
