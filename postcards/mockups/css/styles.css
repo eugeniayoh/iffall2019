@@ -1,0 +1,36 @@
+
+h1 {
+	text-align: center;
+	padding-top: 2em;
+	font-family: 'Noto Serif', serif;
+}
+
+.desktop {
+	max-width: 500px;
+	margin: 1em;
+	display: block;
+}
+
+h2 { 
+	font-family: 'Noto Serif', serif;
+	padding: 2em;
+ }
+
+ .mobile {
+ 	max-width: 300px;
+ 	display:inline-block;
+ 	padding:20px;
+ }
+
+ h3 {
+ 	font-family: 'Noto Serif', serif;
+ 	font-size: 12pt;
+ 	text-align: center;
+ 	letter-spacing: none;
+ }
+
+hr {
+	width: 80%;
+	color: black;
+	align-self: center;
+}
