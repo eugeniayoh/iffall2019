@@ -1,0 +1,16 @@
+.desktop1 {
+
+	width:60%;
+	border: 1px solid gray ;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size:10pt;
+}
+
+p {
+	font-family:helvetica;
+	font-size: 12pt;
+	margin: 1rem;
+}
