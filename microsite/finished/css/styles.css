@@ -1,0 +1,339 @@
+
+
+h1 {
+font-family: lust, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 40pt;
+margin-top:1em;
+padding-left:1em;
+
+}
+
+
+nav {
+	text-align:center;
+}
+
+
+p {
+	font-family:roboto;
+	font-size: 20pt;
+	margin-top: none;
+	padding-top: none;
+	padding: 2em;
+	padding-bottom: 3em;
+	width: 80%;
+	color:#b3b3b3;
+}
+
+.text {
+	color:black;
+	text-decoration:none;
+}
+
+.text:active {
+	color:black;
+	text-decoration:none;
+}
+
+.text:hover{
+	color:black;
+	text-decoration:none;
+}
+
+.button {
+
+	font-family:roboto;
+	border: solid black 1px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	display:inline-block;
+	width:10%;
+	margin-top: 3em;
+	text-align:center;
+	text-decoration:none;
+	color:black;
+	letter-spacing: 1px;
+}
+
+@media (max-width:700px){
+	.button {
+
+	font-family:roboto;
+	border: solid black 1px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	display:inline-block;
+	width:20%;
+	margin-top: 3em;
+	text-align:center;
+	text-decoration:none;
+	color:black;
+	letter-spacing: 1px;
+}
+}
+
+
+.button:hover {
+	background-color: black;
+	color:white;
+	text-decoration:none;
+	font-family:roboto;
+
+}
+
+.button_2 {
+
+	font-family:roboto;
+	border: solid black 1px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	display:inline-block;
+	width:10%;
+	margin-left:2em;
+	margin-top: 3em;
+	text-align:center;
+	text-decoration:none;
+	color:black;
+	letter-spacing: 1px;
+}
+
+
+.button_2:hover {
+	background-color: black;
+	color:white;
+	text-decoration:none;
+	font-family:roboto;
+
+}
+
+
+strong {
+	font-weight:400;
+	color:black;
+	text-decoration: none;
+}
+
+
+a {
+	text-decoration:none;
+	color:black;
+
+}
+
+.woodblock {
+	padding-left: 3em;
+	padding-bottom:7em;
+	width:50%;
+}
+
+@media (max-width: 800px){
+	.woodblock {
+		align-content: center;
+		margin:auto;
+		padding-top:1em;
+		width:80%;
+		padding-bottom:none;
+
+	}
+	}
+
+.woodblock2 {
+	padding-right: 3em;
+	padding-bottom: 4em;
+	padding-top:1em;
+	width:50%;
+	align-content:right;
+	float:right;
+
+}
+
+@media (max-width: 800px){
+	.woodblock2 {
+		align-content: center;
+		width:80%;
+		margin:auto;
+		padding-top:3em;
+		padding-left:none;
+
+	}
+	}
+
+.text_woodblock_1 {
+	font-size:11pt;
+	font-family:roboto;
+	width:30%;
+	float:right;
+	padding-right:5em;
+	margin:auto;
+}
+
+.text_woodblock_2 {
+	font-size:11pt;
+	font-family:roboto;
+	width:30%;
+	float:left;
+	padding-left:3em;
+	margin:auto;
+	padding-bottom: 2em;
+}
+
+
+@media (max-width: 800px){
+	.text_woodblock_1 {
+		width:70%;
+		margin:auto;
+		text-align:center;
+		float:none;
+		
+	}
+
+}
+
+@media (max-width: 800px){
+	.text_woodblock_2 {
+		width:70%;
+		text-align:center;
+		margin:auto;
+		float:none;
+		display:inline-block;
+	}
+
+}
+
+/*@media (max-width: 800px){
+	.text_woodblock_2 {
+		width:60%;
+		padding-left:none;
+		text-align:center;
+		float:center;
+		display:inline-block;
+
+	}*/
+
+}
+
+
+.text_movable {
+	padding-top:3em;
+	font-size:11pt;
+	font-family:roboto;
+	width:80%;
+	text-align: left;
+	align-content: center;
+	margin:auto;
+	padding-bottom: 7em;
+
+}
+
+.movable {
+	padding-bottom: 5em;
+	width:100%;
+	align-content:right;
+	margin:auto;
+
+}
+
+
+.mechanical {
+	padding-bottom: 3em;
+	padding-left: 3em;
+	width:40%;
+	align-content:left;
+}
+
+.mechanical_text {
+	font-size:11pt;
+	font-family:roboto;
+	align-content:right;
+	float:right;
+	padding-right:3em;
+	width:40%;
+}
+
+
+@media (max-width:610px){
+.mechanical {
+	width:70%;
+	margin:auto;
+	align-content:center;
+/*	position: absolute;*/
+}
+}
+
+@media (max-width:610px){
+.mechanical_text {
+	font-size:11pt;
+	font-family:roboto;
+	padding-left:1em;
+	margin-left:0;
+	width:60%;
+}
+}
+
+
+/*.gallery {
+	width: 25%;
+	margin: 1em;
+}*/
+
+
+hr {
+	color:black;
+	line-height: 1.5em;
+}
+
+p2 {
+	font-family: roboto;
+	color:gray;
+	font-size:25pt;
+	margin-left:1.5em;
+}
+
+.source_text {
+	font-family: roboto;
+	font-size:12pt;
+	margin-left: 3em;
+}
+
+
+.box {
+	margin:auto;
+	display:block;
+	text-align: center;
+	align-content: center;
+
+}
+
+.caption {
+	font-family:roboto;
+	font-size:12pt;
+	display:inline;
+	padding-top:2em;
+
+}
+
+.image {
+	width:30%;
+	display:inline-block;
+	margin:0.5em;
+}
+
+.image img {
+	width:90%;
+	padding:1em;
+}
+
+/*.image:hover {
+	transition:0.5s ease;
+	display:inline-block;
+
+}
+*/
