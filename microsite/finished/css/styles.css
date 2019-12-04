@@ -175,6 +175,16 @@ a {
 	margin:auto;
 }
 
+@media (max-width: 800px){
+	.text_woodblock_1 {
+		width:70%;
+		margin:auto;
+		text-align:center;
+		float:none;
+		
+	}
+	}
+
 .text_woodblock_2 {
 	font-size:11pt;
 	font-family:roboto;
@@ -187,17 +197,6 @@ a {
 
 
 @media (max-width: 800px){
-	.text_woodblock_1 {
-		width:70%;
-		margin:auto;
-		text-align:center;
-		float:none;
-		
-	}
-
-}
-
-@media (max-width: 800px){
 	.text_woodblock_2 {
 		width:70%;
 		text-align:center;
@@ -205,20 +204,8 @@ a {
 		float:none;
 		display:inline-block;
 	}
+	}
 
-}
-
-/*@media (max-width: 800px){
-	.text_woodblock_2 {
-		width:60%;
-		padding-left:none;
-		text-align:center;
-		float:center;
-		display:inline-block;
-
-	}*/
-
-}
 
 
 .text_movable {
@@ -235,10 +222,9 @@ a {
 
 .movable {
 	padding-bottom: 5em;
-	width:100%;
+	width:90%;
 	align-content:right;
 	margin:auto;
-
 }
 
 
