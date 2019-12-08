@@ -1,0 +1,68 @@
+/*h1 {
+	font-family:'Nunito', sans-serif;
+	font-size:30pt;
+	align-content:center;
+	text-align:center;
+	margin-top:3em;
+	margin-bottom:1em;
+}
+
+h1:hover {
+	color:white;
+	background-color:#899BF6;
+	width:30%;
+	margin:3em auto 1em auto;
+	align-content: center;
+	text-align:center;
+}*/
+
+.header {
+	width:100%;
+}
+
+.header:hover {
+
+	background-image: url(images/headerexclusion.jpg);
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size:18pt;
+	align-content:center;
+	text-align:center;
+}
+
+body {
+	font-family: 'Dosis', sans-serif;
+	font-weight:400;
+	letter-spacing:1px; 
+	}
+
+p {
+	font-family: 'Dosis', sans-serif;
+	font-weight:400;
+	letter-spacing:1px; 
+}
+
+.pictures {
+	display:inline-block;
+	margin:auto;
+	align-content: center;
+	width:20em;
+	padding:1em;
+	padding-top:4em;
+}
+
+.pictures:hover {
+	/*opacity:50%;*/
+	transform: scale(1.2) rotate(10deg);
+
+}
+
+.project{
+	text-align:center;
+	display:inline-block;
+	margin:auto;
+	align-content: center;
+}
+
